@@ -1,4 +1,4 @@
-html {margin:100px; border: 5px solid red; padding:10px;}
+html {margin:0; padding:0;}
 body {margin:0; padding:0; width:100%; background-color:#a8c9d8; font:normal 12px/2.0em Sans-Serif;}
 #page {margin: 0; padding:0; background:#fff;}
 #header, #main, #footer, #top-nav {margin:0; padding:0;}
@@ -14,37 +14,3 @@ h1, h2, h3 {color:darkred;}
 /*body {background-color: powderblue;}
 h1 {color: blue;}
 div {color: red;}*/
-#aboutFluff {margin: 5px; border: 5px solid rgb(0, 247, 255); padding: 5px;}
-#homeButton {
-  text-align: center;
-  background-color: beige;
-  font-size: 1em;
-  margin:  0.3em;
-  border:  2px solid red;
-  border-radius: 15px;
-  padding: 0.3rem;
-  max-width: 80px;
-  width: auto;
-  position: fixed;
-  bottom: 15px;
-  right: 15px;
-}
-
-#homeButton > a {
-  text-decoration: none;
-  color: red;
-}
-
-#shark {
-  text-align: center;
-  margin: 1rem;
-}
-
-#shark > img {
-  max-width: 250px;
-  min-width: 50px;
-  width: 100%;
-  max-height: 250px;
-  min-height: 50px;
-  height: auto;
-}
