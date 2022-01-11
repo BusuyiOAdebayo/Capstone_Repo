@@ -2,12 +2,12 @@ import html from "html-literal";
 
 export default () => html`
   <footer id="footer">
-    <div id="footer-inner1">
+    <!-- <div id="footer-inner1">
       <a href="https://www.Gas.com/">Gas/Vapor</a>
       <a href="https://www.Liquid.com/">Liquid</a>
       <a href="https://www.Solid.com/">Solid</a>
       <a href="https://www.Multiphase.com/">Multiphase</a>
-    </div>
+    </div> -->
     <div id="footer-inner2">
       <p>
         &copy; Copyright Author: Busuyi O. Adebayo &#124;

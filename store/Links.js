@@ -1,7 +1,9 @@
 export default [
+  { title: "Home", text: "Home" },
   { title: "About", text: "About" },
   { title: "Contact", text: "Contact" },
-  // { title: "Help", text: "Help" },
-  { title: "Home", text: "Home" },
-  // { title: "Search", text: "Search" },
+  { title: "GasVapor", text: "GasVapor" },
+  { title: "Liquid", text: "Liquid" },
+  { title: "Solid", text: "Solid" },
+  { title: "Multiphase", text: "Multiphase" }
 ];

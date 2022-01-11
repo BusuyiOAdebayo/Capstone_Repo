@@ -1,7 +1,10 @@
-html {margin:100px; border: 5px solid red; padding:10px;}
+html {margin:100px; border: 0px solid red; padding:10px;}
 body {margin:0; padding:0; width:100%; background-color:#a8c9d8; font:normal 12px/2.0em Sans-Serif;}
 #page {margin: 0; padding:0; background:#fff;}
 #header, #main, #footer, #top-nav {margin:0; padding:0;}
+header {
+  text-align: center;
+}
 h1, h2, h3 {color:darkred;}
 #logo {padding:0; width:auto; float:left;}
 #logo h1 a {color:darkred; text-decoration:none;}
@@ -14,7 +17,10 @@ h1, h2, h3 {color:darkred;}
 /*body {background-color: powderblue;}
 h1 {color: blue;}
 div {color: red;}*/
-#aboutFluff {margin: 5px; border: 5px solid rgb(0, 247, 255); padding: 5px;}
+#aboutFluff {
+  margin: 5px; border: 2px solid rgb(0, 247, 255); padding: 5px;
+background-color: white;
+border-radius: 25px;}
 #homeButton {
   text-align: center;
   background-color: beige;
@@ -47,4 +53,57 @@ div {color: red;}*/
   max-height: 250px;
   min-height: 50px;
   height: auto;
+}
+
+@media (max-width: 549px) {
+  .hidden--mobile {
+    display: none !important;
+  }
+
+  nav {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  nav > i {
+    padding: 1rem;
+    font-size: 2em;
+  }
+
+  nav > ul {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 0;
+  }
+
+  nav > ul > li {
+    padding: 0.5rem;
+    list-style-type: none;
+  }
+}
+
+@media (min-width: 550px) {
+  #jumbotron {
+    height: 60vh;
+  }
+
+  nav > ul {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0 0;
+  }
+
+  nav > ul > li {
+    display: inline-block;
+    text-decoration: none;
+    border: 1px solid;
+    padding: 0.5rem 0.5rem;
+    border-radius: 25px;
+  }
+
+  nav > .fa-bars {
+    display: none;
+  }
 }

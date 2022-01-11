@@ -238,7 +238,7 @@ function addEventListeners(st) {
     );
 
   // event listener for the the photo form
-  if (st.view === "Form") {
+  /*if (st.view === "Form") {
     document.querySelector("form").addEventListener("submit", event => {
       event.preventDefault();
       // convert HTML elements to Array
@@ -255,6 +255,7 @@ function addEventListeners(st) {
       render(state.Gallery);
     });
   }
+  */
 }
 
 // 5. ADD ROUTER HOOKS HERE ...
